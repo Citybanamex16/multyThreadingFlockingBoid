@@ -53,8 +53,8 @@ The core of the project is built on a **Concurrent Systems architecture in C++17
 ### 🔜 Pending Work
 
 - **Cross-Platform Portability Testing** — Due to hardware limitations on the development machine (an older Mac model), compilation was done by linking specific legacy binaries locally. Validation on other computers (modern hardware architectures and other operating systems) is pending to ensure standard dependencies link correctly without custom configurations.
-- **Data Structure Optimization** — Neighbor search currently runs at $O(N^2)$ complexity. A spatial partitioning strategy (Spatial Hashing or Quadtree) is planned to improve performance with thousands of agents.
-- **User Interface (UI)** — On-screen controls to adjust force weights in real time.
+- **Alternative Solution** — This solution is based on concurrancy and paralelism in c++. Normally this simulations are made in CUDA using pure Paralelism. The comparison between this solutions will be presented. 
+- **User Interface (UI)** — On-screen controls to adjust variables and see optimization.
 
 ---
 
